@@ -1,0 +1,3 @@
+9d1f6d,127.0.0.1,GET,http://localhost:8000/,1717594332,,404,request
+f03c82,127.0.0.1,GET,http://localhost:8000/,1717596226,,404,request
+ce458a,127.0.0.1,GET,http://localhost:8000/home,1717596424,,200,request
