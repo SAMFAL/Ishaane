@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Dahiras{% endblock %}
+
+{% block body %}
+    <h1>Create new Dahiras</h1>
+
+    {{ include('dahiras/_form.html.twig') }}
+
+    <a href="{{ path('app_dahiras_index') }}">back to list</a>
+{% endblock %}

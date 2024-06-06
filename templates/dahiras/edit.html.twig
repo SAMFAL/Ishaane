@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Dahiras{% endblock %}
+
+{% block body %}
+    <h1>Edit Dahiras</h1>
+
+    {{ include('dahiras/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('app_dahiras_index') }}">back to list</a>
+
+    {{ include('dahiras/_delete_form.html.twig') }}
+{% endblock %}

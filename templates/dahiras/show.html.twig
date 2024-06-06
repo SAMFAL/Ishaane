@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dahiras{% endblock %}
+
+{% block body %}
+    <h1>Dahiras</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ dahira.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ dahira.nom }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_dahiras_index') }}">back to list</a>
+
+    <a href="{{ path('app_dahiras_edit', {'id': dahira.id}) }}">edit</a>
+
+    {{ include('dahiras/_delete_form.html.twig') }}
+{% endblock %}
