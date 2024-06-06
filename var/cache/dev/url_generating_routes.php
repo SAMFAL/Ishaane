@@ -27,6 +27,7 @@ return [
     'app_membres_new' => [[], ['_controller' => 'App\\Controller\\MembresController::new'], [], [['text', '/membres/new']], [], [], []],
     'app_membres_show' => [['id'], ['_controller' => 'App\\Controller\\MembresController::show'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/membres']], [], [], []],
     'app_membres_edit' => [['id'], ['_controller' => 'App\\Controller\\MembresController::edit'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true], ['text', '/membres']], [], [], []],
+    'get_members_by_dahira' => [[], ['_controller' => 'App\\Controller\\MembresController::getMembersByDahira'], [], [['text', '/membres/get-members-by-dahira']], [], [], []],
     'app_membres_delete' => [['id'], ['_controller' => 'App\\Controller\\MembresController::delete'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/membres']], [], [], []],
     'App\Controller\DahirasController::index' => [[], ['_controller' => 'App\\Controller\\DahirasController::index'], [], [['text', '/dahiras/']], [], [], []],
     'App\Controller\DahirasController::new' => [[], ['_controller' => 'App\\Controller\\DahirasController::new'], [], [['text', '/dahiras/new']], [], [], []],
@@ -38,5 +39,6 @@ return [
     'App\Controller\MembresController::new' => [[], ['_controller' => 'App\\Controller\\MembresController::new'], [], [['text', '/membres/new']], [], [], []],
     'App\Controller\MembresController::show' => [['id'], ['_controller' => 'App\\Controller\\MembresController::show'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/membres']], [], [], []],
     'App\Controller\MembresController::edit' => [['id'], ['_controller' => 'App\\Controller\\MembresController::edit'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true], ['text', '/membres']], [], [], []],
+    'App\Controller\MembresController::getMembersByDahira' => [[], ['_controller' => 'App\\Controller\\MembresController::getMembersByDahira'], [], [['text', '/membres/get-members-by-dahira']], [], [], []],
     'App\Controller\MembresController::delete' => [['id'], ['_controller' => 'App\\Controller\\MembresController::delete'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/membres']], [], [], []],
 ];

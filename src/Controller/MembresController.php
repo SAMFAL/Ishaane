@@ -7,6 +7,7 @@ use App\Form\MembresType;
 use App\Repository\MembresRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
@@ -66,6 +67,25 @@ class MembresController extends AbstractController
             'membre' => $membre,
             'form' => $form,
         ]);
+    }
+
+    #[Route("/get-members-by-dahira", name: "get_members_by_dahira", methods: ['GET'])]
+    public function getMembersByDahira(Request $request): JsonResponse
+    {
+        $dahiraId = $request->query->get('dahiraId');
+        // Récupérez les membres associés à $dahiraId depuis votre base de données
+        $members = $this->getDoctrine()->getRepository(Membre::class)->findBy(['dahira' => $dahiraId]);
+
+        $membersData = [];
+        foreach ($members as $member) {
+            $membersData[] = [
+                'nom' => $member->getNom(),
+                'prenom' => $member->getPrenom(),
+                // Ajoutez d'autres attributs de membre si nécessaire
+            ];
+        }
+
+        return new JsonResponse($membersData);
     }
 
     #[Route('/{id}', name: 'app_membres_delete', methods: ['POST'])]
