@@ -23,6 +23,8 @@ class MembresController extends AbstractController
         ]);
     }
 
+
+
     #[Route('/new', name: 'app_membres_new', methods: ['GET', 'POST'])]
     public function new(Request $request, EntityManagerInterface $entityManager): Response
     {
@@ -67,25 +69,6 @@ class MembresController extends AbstractController
             'membre' => $membre,
             'form' => $form,
         ]);
-    }
-
-    #[Route("/get-members-by-dahira", name: "get_members_by_dahira", methods: ['GET'])]
-    public function getMembersByDahira(Request $request): JsonResponse
-    {
-        $dahiraId = $request->query->get('dahiraId');
-        // Récupérez les membres associés à $dahiraId depuis votre base de données
-        $members = $this->getDoctrine()->getRepository(Membre::class)->findBy(['dahira' => $dahiraId]);
-
-        $membersData = [];
-        foreach ($members as $member) {
-            $membersData[] = [
-                'nom' => $member->getNom(),
-                'prenom' => $member->getPrenom(),
-                // Ajoutez d'autres attributs de membre si nécessaire
-            ];
-        }
-
-        return new JsonResponse($membersData);
     }
 
     #[Route('/{id}', name: 'app_membres_delete', methods: ['POST'])]

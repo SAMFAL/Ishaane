@@ -67,7 +67,6 @@ class DahirasController extends AbstractController
             'form' => $form,
         ]);
     }
-
     #[Route('/{id}', name: 'app_dahiras_delete', methods: ['POST'])]
     public function delete(Request $request, Dahiras $dahira, EntityManagerInterface $entityManager): Response
     {

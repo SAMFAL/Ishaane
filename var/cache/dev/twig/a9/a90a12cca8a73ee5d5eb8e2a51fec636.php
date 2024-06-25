@@ -282,6 +282,23 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
                         <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
                         <a class=\"nav-link\" href=\"";
         // line 230
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_themes_index");
+        yield "\">
+\t\t\t\t\t\t        <span class=\"nav-icon\">
+\t\t\t\t\t\t        <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" class=\"bi bi-folder\"
+                                     fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\">
+  <path d=\"M9.828 4a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 6.173 2H2.5a1 1 0 0 0-1 .981L1.546 4h-1L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3v1z\"/>
+  <path fill-rule=\"evenodd\"
+        d=\"M13.81 4H2.19a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4zM2.19 3A2 2 0 0 0 .198 5.181l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3H2.19z\"/>
+</svg>
+\t\t\t\t\t\t         </span>
+                            <span class=\"nav-link-text\">Thèmes</span>
+                        </a><!--//nav-link-->
+                    </li><!--//nav-item-->
+                    <li class=\"nav-item\">
+                        <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                        <a class=\"nav-link\" href=\"";
+        // line 244
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_membres_index");
         yield "\">
 \t\t\t\t\t\t        <span class=\"nav-icon\">
@@ -454,45 +471,18 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         <div class=\"container-xl\">
 
         ";
-        // line 400
-        yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
-        // line 401
-        yield "    ";
-        // line 402
-        yield "    ";
-        // line 403
-        yield "
-    ";
-        // line 405
-        yield "
-    ";
-        // line 407
-        yield "    ";
-        // line 408
-        yield "    ";
-        // line 409
-        yield "    ";
-        // line 410
-        yield "    ";
-        // line 411
-        yield "    ";
-        // line 412
-        yield "
-    ";
         // line 414
-        yield "    ";
+        yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
         // line 415
         yield "    ";
         // line 416
         yield "    ";
         // line 417
-        yield "    ";
-        // line 418
-        yield "    ";
+        yield "
+    ";
         // line 419
-        yield "    ";
-        // line 420
-        yield "    ";
+        yield "
+    ";
         // line 421
         yield "    ";
         // line 422
@@ -502,13 +492,14 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 424
         yield "    ";
         // line 425
-        yield "
-    ";
-        // line 427
         yield "    ";
-        // line 428
+        // line 426
         yield "
     ";
+        // line 428
+        yield "    ";
+        // line 429
+        yield "    ";
         // line 430
         yield "    ";
         // line 431
@@ -528,16 +519,15 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 438
         yield "    ";
         // line 439
-        yield "    ";
-        // line 440
-        yield "    ";
+        yield "
+    ";
         // line 441
         yield "    ";
         // line 442
-        yield "    ";
-        // line 443
         yield "
     ";
+        // line 444
+        yield "    ";
         // line 445
         yield "    ";
         // line 446
@@ -563,9 +553,8 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 456
         yield "    ";
         // line 457
-        yield "    ";
-        // line 458
-        yield "    ";
+        yield "
+    ";
         // line 459
         yield "    ";
         // line 460
@@ -725,8 +714,9 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 537
         yield "    ";
         // line 538
-        yield "
-    ";
+        yield "    ";
+        // line 539
+        yield "    ";
         // line 540
         yield "    ";
         // line 541
@@ -752,9 +742,8 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 551
         yield "    ";
         // line 552
-        yield "    ";
-        // line 553
-        yield "    ";
+        yield "
+    ";
         // line 554
         yield "    ";
         // line 555
@@ -792,9 +781,11 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 571
         yield "    ";
         // line 572
-        yield "
-
-    ";
+        yield "    ";
+        // line 573
+        yield "    ";
+        // line 574
+        yield "    ";
         // line 575
         yield "    ";
         // line 576
@@ -818,16 +809,15 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 585
         yield "    ";
         // line 586
-        yield "    ";
-        // line 587
-        yield "    ";
-        // line 588
-        yield "    ";
+        yield "
+
+    ";
         // line 589
         yield "    ";
         // line 590
-        yield "
-    ";
+        yield "    ";
+        // line 591
+        yield "    ";
         // line 592
         yield "    ";
         // line 593
@@ -853,14 +843,14 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 603
         yield "    ";
         // line 604
-        yield "    ";
-        // line 605
-        yield "    ";
+        yield "
+    ";
         // line 606
         yield "    ";
         // line 607
-        yield "
-    ";
+        yield "    ";
+        // line 608
+        yield "    ";
         // line 609
         yield "    ";
         // line 610
@@ -886,14 +876,14 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 620
         yield "    ";
         // line 621
-        yield "    ";
-        // line 622
-        yield "    ";
+        yield "
+    ";
         // line 623
         yield "    ";
         // line 624
-        yield "
-    ";
+        yield "    ";
+        // line 625
+        yield "    ";
         // line 626
         yield "    ";
         // line 627
@@ -919,9 +909,8 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 637
         yield "    ";
         // line 638
-        yield "    ";
-        // line 639
-        yield "    ";
+        yield "
+    ";
         // line 640
         yield "    ";
         // line 641
@@ -1057,8 +1046,9 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 706
         yield "    ";
         // line 707
-        yield "
-    ";
+        yield "    ";
+        // line 708
+        yield "    ";
         // line 709
         yield "    ";
         // line 710
@@ -1072,8 +1062,9 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 714
         yield "    ";
         // line 715
-        yield "
-    ";
+        yield "    ";
+        // line 716
+        yield "    ";
         // line 717
         yield "    ";
         // line 718
@@ -1083,9 +1074,8 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 720
         yield "    ";
         // line 721
-        yield "    ";
-        // line 722
-        yield "    ";
+        yield "
+    ";
         // line 723
         yield "    ";
         // line 724
@@ -1099,9 +1089,8 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 728
         yield "    ";
         // line 729
-        yield "    ";
-        // line 730
-        yield "    ";
+        yield "
+    ";
         // line 731
         yield "    ";
         // line 732
@@ -1109,8 +1098,9 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 733
         yield "    ";
         // line 734
-        yield "
-    ";
+        yield "    ";
+        // line 735
+        yield "    ";
         // line 736
         yield "    ";
         // line 737
@@ -1124,8 +1114,9 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 741
         yield "    ";
         // line 742
-        yield "
-    ";
+        yield "    ";
+        // line 743
+        yield "    ";
         // line 744
         yield "    ";
         // line 745
@@ -1135,9 +1126,8 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 747
         yield "    ";
         // line 748
-        yield "    ";
-        // line 749
-        yield "    ";
+        yield "
+    ";
         // line 750
         yield "    ";
         // line 751
@@ -1151,9 +1141,8 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 755
         yield "    ";
         // line 756
-        yield "    ";
-        // line 757
-        yield "    ";
+        yield "
+    ";
         // line 758
         yield "    ";
         // line 759
@@ -1161,8 +1150,9 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 760
         yield "    ";
         // line 761
-        yield "
-    ";
+        yield "    ";
+        // line 762
+        yield "    ";
         // line 763
         yield "    ";
         // line 764
@@ -1176,8 +1166,9 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 768
         yield "    ";
         // line 769
-        yield "
-    ";
+        yield "    ";
+        // line 770
+        yield "    ";
         // line 771
         yield "    ";
         // line 772
@@ -1187,12 +1178,38 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         // line 774
         yield "    ";
         // line 775
-        yield "    ";
-        // line 776
-        yield "    ";
+        yield "
+    ";
         // line 777
         yield "    ";
         // line 778
+        yield "    ";
+        // line 779
+        yield "    ";
+        // line 780
+        yield "    ";
+        // line 781
+        yield "    ";
+        // line 782
+        yield "    ";
+        // line 783
+        yield "
+    ";
+        // line 785
+        yield "    ";
+        // line 786
+        yield "    ";
+        // line 787
+        yield "    ";
+        // line 788
+        yield "    ";
+        // line 789
+        yield "    ";
+        // line 790
+        yield "    ";
+        // line 791
+        yield "    ";
+        // line 792
         yield "
             </div><!--//container-fluid-->
         </div><!--//app-content-->
@@ -1213,27 +1230,27 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
 
 <!-- Javascript -->
 <script src=\"";
-        // line 797
+        // line 811
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/plugins/popper.min.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 798
+        // line 812
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/plugins/bootstrap/js/bootstrap.min.js"), "html", null, true);
         yield "\"></script>
 
 <!-- Charts JS -->
 <script src=\"";
-        // line 801
+        // line 815
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/plugins/chart.js/chart.min.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 802
+        // line 816
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/js/index-charts.js"), "html", null, true);
         yield "\"></script>
 
 <!-- Page Specific JS -->
 <script src=\"";
-        // line 805
+        // line 819
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("assets/js/app.js"), "html", null, true);
         yield "\"></script>
 
@@ -1250,7 +1267,7 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
         return; yield '';
     }
 
-    // line 400
+    // line 414
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -1291,7 +1308,7 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  1254 => 400,  1237 => 805,  1231 => 802,  1227 => 801,  1221 => 798,  1217 => 797,  1196 => 778,  1194 => 777,  1192 => 776,  1190 => 775,  1188 => 774,  1186 => 773,  1184 => 772,  1182 => 771,  1179 => 769,  1177 => 768,  1175 => 767,  1173 => 766,  1171 => 765,  1169 => 764,  1167 => 763,  1164 => 761,  1162 => 760,  1160 => 759,  1158 => 758,  1156 => 757,  1154 => 756,  1152 => 755,  1150 => 754,  1148 => 753,  1146 => 752,  1144 => 751,  1142 => 750,  1140 => 749,  1138 => 748,  1136 => 747,  1134 => 746,  1132 => 745,  1130 => 744,  1127 => 742,  1125 => 741,  1123 => 740,  1121 => 739,  1119 => 738,  1117 => 737,  1115 => 736,  1112 => 734,  1110 => 733,  1108 => 732,  1106 => 731,  1104 => 730,  1102 => 729,  1100 => 728,  1098 => 727,  1096 => 726,  1094 => 725,  1092 => 724,  1090 => 723,  1088 => 722,  1086 => 721,  1084 => 720,  1082 => 719,  1080 => 718,  1078 => 717,  1075 => 715,  1073 => 714,  1071 => 713,  1069 => 712,  1067 => 711,  1065 => 710,  1063 => 709,  1060 => 707,  1058 => 706,  1056 => 705,  1054 => 704,  1052 => 703,  1050 => 702,  1048 => 701,  1046 => 700,  1044 => 699,  1042 => 698,  1040 => 697,  1038 => 696,  1036 => 695,  1034 => 694,  1032 => 693,  1030 => 692,  1028 => 691,  1026 => 690,  1024 => 689,  1022 => 688,  1020 => 687,  1018 => 686,  1016 => 685,  1014 => 684,  1012 => 683,  1010 => 682,  1008 => 681,  1006 => 680,  1004 => 679,  1002 => 678,  1000 => 677,  998 => 676,  996 => 675,  994 => 674,  992 => 673,  990 => 672,  988 => 671,  986 => 670,  984 => 669,  982 => 668,  980 => 667,  978 => 666,  976 => 665,  974 => 664,  972 => 663,  970 => 662,  968 => 661,  966 => 660,  964 => 659,  962 => 658,  960 => 657,  958 => 656,  956 => 655,  954 => 654,  952 => 653,  950 => 652,  948 => 651,  946 => 650,  944 => 649,  942 => 648,  940 => 647,  938 => 646,  936 => 645,  934 => 644,  932 => 643,  930 => 642,  928 => 641,  926 => 640,  924 => 639,  922 => 638,  920 => 637,  918 => 636,  916 => 635,  914 => 634,  912 => 633,  910 => 632,  908 => 631,  906 => 630,  904 => 629,  902 => 628,  900 => 627,  898 => 626,  895 => 624,  893 => 623,  891 => 622,  889 => 621,  887 => 620,  885 => 619,  883 => 618,  881 => 617,  879 => 616,  877 => 615,  875 => 614,  873 => 613,  871 => 612,  869 => 611,  867 => 610,  865 => 609,  862 => 607,  860 => 606,  858 => 605,  856 => 604,  854 => 603,  852 => 602,  850 => 601,  848 => 600,  846 => 599,  844 => 598,  842 => 597,  840 => 596,  838 => 595,  836 => 594,  834 => 593,  832 => 592,  829 => 590,  827 => 589,  825 => 588,  823 => 587,  821 => 586,  819 => 585,  817 => 584,  815 => 583,  813 => 582,  811 => 581,  809 => 580,  807 => 579,  805 => 578,  803 => 577,  801 => 576,  799 => 575,  795 => 572,  793 => 571,  791 => 570,  789 => 569,  787 => 568,  785 => 567,  783 => 566,  781 => 565,  779 => 564,  777 => 563,  775 => 562,  773 => 561,  771 => 560,  769 => 559,  767 => 558,  765 => 557,  763 => 556,  761 => 555,  759 => 554,  757 => 553,  755 => 552,  753 => 551,  751 => 550,  749 => 549,  747 => 548,  745 => 547,  743 => 546,  741 => 545,  739 => 544,  737 => 543,  735 => 542,  733 => 541,  731 => 540,  728 => 538,  726 => 537,  724 => 536,  722 => 535,  720 => 534,  718 => 533,  716 => 532,  714 => 531,  712 => 530,  710 => 529,  708 => 528,  706 => 527,  704 => 526,  702 => 525,  700 => 524,  698 => 523,  696 => 522,  694 => 521,  692 => 520,  690 => 519,  688 => 518,  686 => 517,  684 => 516,  682 => 515,  680 => 514,  678 => 513,  676 => 512,  674 => 511,  672 => 510,  670 => 509,  668 => 508,  666 => 507,  664 => 506,  662 => 505,  660 => 504,  658 => 503,  656 => 502,  654 => 501,  652 => 500,  650 => 499,  648 => 498,  646 => 497,  644 => 496,  642 => 495,  640 => 494,  638 => 493,  636 => 492,  634 => 491,  632 => 490,  630 => 489,  628 => 488,  626 => 487,  624 => 486,  622 => 485,  620 => 484,  618 => 483,  616 => 482,  614 => 481,  612 => 480,  610 => 479,  608 => 478,  606 => 477,  604 => 476,  602 => 475,  600 => 474,  598 => 473,  596 => 472,  594 => 471,  592 => 470,  590 => 469,  588 => 468,  586 => 467,  584 => 466,  582 => 465,  580 => 464,  578 => 463,  576 => 462,  574 => 461,  572 => 460,  570 => 459,  568 => 458,  566 => 457,  564 => 456,  562 => 455,  560 => 454,  558 => 453,  556 => 452,  554 => 451,  552 => 450,  550 => 449,  548 => 448,  546 => 447,  544 => 446,  542 => 445,  539 => 443,  537 => 442,  535 => 441,  533 => 440,  531 => 439,  529 => 438,  527 => 437,  525 => 436,  523 => 435,  521 => 434,  519 => 433,  517 => 432,  515 => 431,  513 => 430,  510 => 428,  508 => 427,  505 => 425,  503 => 424,  501 => 423,  499 => 422,  497 => 421,  495 => 420,  493 => 419,  491 => 418,  489 => 417,  487 => 416,  485 => 415,  483 => 414,  480 => 412,  478 => 411,  476 => 410,  474 => 409,  472 => 408,  470 => 407,  467 => 405,  464 => 403,  462 => 402,  460 => 401,  458 => 400,  285 => 230,  268 => 216,  68 => 19,  62 => 16,  45 => 1,);
+        return array (  1271 => 414,  1254 => 819,  1248 => 816,  1244 => 815,  1238 => 812,  1234 => 811,  1213 => 792,  1211 => 791,  1209 => 790,  1207 => 789,  1205 => 788,  1203 => 787,  1201 => 786,  1199 => 785,  1196 => 783,  1194 => 782,  1192 => 781,  1190 => 780,  1188 => 779,  1186 => 778,  1184 => 777,  1181 => 775,  1179 => 774,  1177 => 773,  1175 => 772,  1173 => 771,  1171 => 770,  1169 => 769,  1167 => 768,  1165 => 767,  1163 => 766,  1161 => 765,  1159 => 764,  1157 => 763,  1155 => 762,  1153 => 761,  1151 => 760,  1149 => 759,  1147 => 758,  1144 => 756,  1142 => 755,  1140 => 754,  1138 => 753,  1136 => 752,  1134 => 751,  1132 => 750,  1129 => 748,  1127 => 747,  1125 => 746,  1123 => 745,  1121 => 744,  1119 => 743,  1117 => 742,  1115 => 741,  1113 => 740,  1111 => 739,  1109 => 738,  1107 => 737,  1105 => 736,  1103 => 735,  1101 => 734,  1099 => 733,  1097 => 732,  1095 => 731,  1092 => 729,  1090 => 728,  1088 => 727,  1086 => 726,  1084 => 725,  1082 => 724,  1080 => 723,  1077 => 721,  1075 => 720,  1073 => 719,  1071 => 718,  1069 => 717,  1067 => 716,  1065 => 715,  1063 => 714,  1061 => 713,  1059 => 712,  1057 => 711,  1055 => 710,  1053 => 709,  1051 => 708,  1049 => 707,  1047 => 706,  1045 => 705,  1043 => 704,  1041 => 703,  1039 => 702,  1037 => 701,  1035 => 700,  1033 => 699,  1031 => 698,  1029 => 697,  1027 => 696,  1025 => 695,  1023 => 694,  1021 => 693,  1019 => 692,  1017 => 691,  1015 => 690,  1013 => 689,  1011 => 688,  1009 => 687,  1007 => 686,  1005 => 685,  1003 => 684,  1001 => 683,  999 => 682,  997 => 681,  995 => 680,  993 => 679,  991 => 678,  989 => 677,  987 => 676,  985 => 675,  983 => 674,  981 => 673,  979 => 672,  977 => 671,  975 => 670,  973 => 669,  971 => 668,  969 => 667,  967 => 666,  965 => 665,  963 => 664,  961 => 663,  959 => 662,  957 => 661,  955 => 660,  953 => 659,  951 => 658,  949 => 657,  947 => 656,  945 => 655,  943 => 654,  941 => 653,  939 => 652,  937 => 651,  935 => 650,  933 => 649,  931 => 648,  929 => 647,  927 => 646,  925 => 645,  923 => 644,  921 => 643,  919 => 642,  917 => 641,  915 => 640,  912 => 638,  910 => 637,  908 => 636,  906 => 635,  904 => 634,  902 => 633,  900 => 632,  898 => 631,  896 => 630,  894 => 629,  892 => 628,  890 => 627,  888 => 626,  886 => 625,  884 => 624,  882 => 623,  879 => 621,  877 => 620,  875 => 619,  873 => 618,  871 => 617,  869 => 616,  867 => 615,  865 => 614,  863 => 613,  861 => 612,  859 => 611,  857 => 610,  855 => 609,  853 => 608,  851 => 607,  849 => 606,  846 => 604,  844 => 603,  842 => 602,  840 => 601,  838 => 600,  836 => 599,  834 => 598,  832 => 597,  830 => 596,  828 => 595,  826 => 594,  824 => 593,  822 => 592,  820 => 591,  818 => 590,  816 => 589,  812 => 586,  810 => 585,  808 => 584,  806 => 583,  804 => 582,  802 => 581,  800 => 580,  798 => 579,  796 => 578,  794 => 577,  792 => 576,  790 => 575,  788 => 574,  786 => 573,  784 => 572,  782 => 571,  780 => 570,  778 => 569,  776 => 568,  774 => 567,  772 => 566,  770 => 565,  768 => 564,  766 => 563,  764 => 562,  762 => 561,  760 => 560,  758 => 559,  756 => 558,  754 => 557,  752 => 556,  750 => 555,  748 => 554,  745 => 552,  743 => 551,  741 => 550,  739 => 549,  737 => 548,  735 => 547,  733 => 546,  731 => 545,  729 => 544,  727 => 543,  725 => 542,  723 => 541,  721 => 540,  719 => 539,  717 => 538,  715 => 537,  713 => 536,  711 => 535,  709 => 534,  707 => 533,  705 => 532,  703 => 531,  701 => 530,  699 => 529,  697 => 528,  695 => 527,  693 => 526,  691 => 525,  689 => 524,  687 => 523,  685 => 522,  683 => 521,  681 => 520,  679 => 519,  677 => 518,  675 => 517,  673 => 516,  671 => 515,  669 => 514,  667 => 513,  665 => 512,  663 => 511,  661 => 510,  659 => 509,  657 => 508,  655 => 507,  653 => 506,  651 => 505,  649 => 504,  647 => 503,  645 => 502,  643 => 501,  641 => 500,  639 => 499,  637 => 498,  635 => 497,  633 => 496,  631 => 495,  629 => 494,  627 => 493,  625 => 492,  623 => 491,  621 => 490,  619 => 489,  617 => 488,  615 => 487,  613 => 486,  611 => 485,  609 => 484,  607 => 483,  605 => 482,  603 => 481,  601 => 480,  599 => 479,  597 => 478,  595 => 477,  593 => 476,  591 => 475,  589 => 474,  587 => 473,  585 => 472,  583 => 471,  581 => 470,  579 => 469,  577 => 468,  575 => 467,  573 => 466,  571 => 465,  569 => 464,  567 => 463,  565 => 462,  563 => 461,  561 => 460,  559 => 459,  556 => 457,  554 => 456,  552 => 455,  550 => 454,  548 => 453,  546 => 452,  544 => 451,  542 => 450,  540 => 449,  538 => 448,  536 => 447,  534 => 446,  532 => 445,  530 => 444,  527 => 442,  525 => 441,  522 => 439,  520 => 438,  518 => 437,  516 => 436,  514 => 435,  512 => 434,  510 => 433,  508 => 432,  506 => 431,  504 => 430,  502 => 429,  500 => 428,  497 => 426,  495 => 425,  493 => 424,  491 => 423,  489 => 422,  487 => 421,  484 => 419,  481 => 417,  479 => 416,  477 => 415,  475 => 414,  302 => 244,  285 => 230,  268 => 216,  68 => 19,  62 => 16,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -1521,6 +1538,20 @@ class __TwigTemplate_a3fad58b28899d5c4b933cfb0fe90010 extends Template
 </svg>
 \t\t\t\t\t\t         </span>
                             <span class=\"nav-link-text\">Dahiras</span>
+                        </a><!--//nav-link-->
+                    </li><!--//nav-item-->
+                    <li class=\"nav-item\">
+                        <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                        <a class=\"nav-link\" href=\"{{ path('app_themes_index') }}\">
+\t\t\t\t\t\t        <span class=\"nav-icon\">
+\t\t\t\t\t\t        <svg width=\"1em\" height=\"1em\" viewBox=\"0 0 16 16\" class=\"bi bi-folder\"
+                                     fill=\"currentColor\" xmlns=\"http://www.w3.org/2000/svg\">
+  <path d=\"M9.828 4a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 6.173 2H2.5a1 1 0 0 0-1 .981L1.546 4h-1L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3v1z\"/>
+  <path fill-rule=\"evenodd\"
+        d=\"M13.81 4H2.19a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4zM2.19 3A2 2 0 0 0 .198 5.181l.637 7A2 2 0 0 0 2.826 14h10.348a2 2 0 0 0 1.991-1.819l.637-7A2 2 0 0 0 13.81 3H2.19z\"/>
+</svg>
+\t\t\t\t\t\t         </span>
+                            <span class=\"nav-link-text\">Thèmes</span>
                         </a><!--//nav-link-->
                     </li><!--//nav-item-->
                     <li class=\"nav-item\">

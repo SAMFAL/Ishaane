@@ -19,6 +19,8 @@ return [
         '/home' => [[['_route' => 'app_home', '_controller' => 'App\\Controller\\HomeController::index'], null, null, null, false, false, null]],
         '/membres' => [[['_route' => 'app_membres_index', '_controller' => 'App\\Controller\\MembresController::index'], null, ['GET' => 0], null, true, false, null]],
         '/membres/new' => [[['_route' => 'app_membres_new', '_controller' => 'App\\Controller\\MembresController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
+        '/themes' => [[['_route' => 'app_themes_index', '_controller' => 'App\\Controller\\ThemesController::index'], null, ['GET' => 0], null, true, false, null]],
+        '/themes/new' => [[['_route' => 'app_themes_new', '_controller' => 'App\\Controller\\ThemesController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'
@@ -45,13 +47,15 @@ return [
                     .'|/edit(*:235)'
                     .'|(*:243)'
                 .')'
-                .'|/membres/(?'
-                    .'|([^/]++)(?'
-                        .'|(*:275)'
-                        .'|/edit(*:288)'
-                    .')'
-                    .'|get\\-members\\-by\\-dahira(*:321)'
-                    .'|([^/]++)(*:337)'
+                .'|/membres/([^/]++)(?'
+                    .'|(*:272)'
+                    .'|/edit(*:285)'
+                    .'|(*:293)'
+                .')'
+                .'|/themes/([^/]++)(?'
+                    .'|(*:321)'
+                    .'|/edit(*:334)'
+                    .'|(*:342)'
                 .')'
             .')/?$}sDu',
     ],
@@ -67,11 +71,13 @@ return [
         222 => [[['_route' => 'app_dahiras_show', '_controller' => 'App\\Controller\\DahirasController::show'], ['id'], ['GET' => 0], null, false, true, null]],
         235 => [[['_route' => 'app_dahiras_edit', '_controller' => 'App\\Controller\\DahirasController::edit'], ['id'], ['GET' => 0, 'POST' => 1], null, false, false, null]],
         243 => [[['_route' => 'app_dahiras_delete', '_controller' => 'App\\Controller\\DahirasController::delete'], ['id'], ['POST' => 0], null, false, true, null]],
-        275 => [[['_route' => 'app_membres_show', '_controller' => 'App\\Controller\\MembresController::show'], ['id'], ['GET' => 0], null, false, true, null]],
-        288 => [[['_route' => 'app_membres_edit', '_controller' => 'App\\Controller\\MembresController::edit'], ['id'], ['GET' => 0, 'POST' => 1], null, false, false, null]],
-        321 => [[['_route' => 'get_members_by_dahira', '_controller' => 'App\\Controller\\MembresController::getMembersByDahira'], [], ['GET' => 0], null, false, false, null]],
-        337 => [
-            [['_route' => 'app_membres_delete', '_controller' => 'App\\Controller\\MembresController::delete'], ['id'], ['POST' => 0], null, false, true, null],
+        272 => [[['_route' => 'app_membres_show', '_controller' => 'App\\Controller\\MembresController::show'], ['id'], ['GET' => 0], null, false, true, null]],
+        285 => [[['_route' => 'app_membres_edit', '_controller' => 'App\\Controller\\MembresController::edit'], ['id'], ['GET' => 0, 'POST' => 1], null, false, false, null]],
+        293 => [[['_route' => 'app_membres_delete', '_controller' => 'App\\Controller\\MembresController::delete'], ['id'], ['POST' => 0], null, false, true, null]],
+        321 => [[['_route' => 'app_themes_show', '_controller' => 'App\\Controller\\ThemesController::show'], ['id'], ['GET' => 0], null, false, true, null]],
+        334 => [[['_route' => 'app_themes_edit', '_controller' => 'App\\Controller\\ThemesController::edit'], ['id'], ['GET' => 0, 'POST' => 1], null, false, false, null]],
+        342 => [
+            [['_route' => 'app_themes_delete', '_controller' => 'App\\Controller\\ThemesController::delete'], ['id'], ['POST' => 0], null, false, true, null],
             [null, null, null, null, false, false, 0],
         ],
     ],
